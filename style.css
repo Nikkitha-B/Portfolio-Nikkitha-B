@@ -18,7 +18,7 @@ html {
 }
 
 p {
-  color: rgb(85, 85, 85);
+  color:cornsilk;
 }
 
 /* TRANSITION */
@@ -28,10 +28,11 @@ a,.btn {
 }
 
 .background{ 
+  background-img:linear gradient(green,darkgreen);
   z-index: -10;
   position: fixed;
   /* position: relative;*/
- 
+  width: 2400px;
 
   z-index: -1;
 }
@@ -39,6 +40,7 @@ a,.btn {
 
 nav,.nav-links {
   display: flex;
+  z-index: -10;
   
 }
 
@@ -95,7 +97,7 @@ a:hover {
   color: rgb(255, 255, 255);
   text-decoration: none;
   transition: all 0.3 ease-in-out;
-  
+  z-index: 10;
 }
 
 .menu-links li {
@@ -167,11 +169,11 @@ top: -170px;
 
 .section__text__p1 {
   text-align: center;
-
+  font-size: 40px;
 }
 
 .section__text__p2 {
-  font-size: 1.75rem;
+  font-size: 3rem;
  
 }
 
