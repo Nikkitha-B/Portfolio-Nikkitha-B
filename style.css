@@ -18,7 +18,7 @@ html {
 }
 
 p {
-  color:cornsilk;
+  color:rgb(226, 226, 226);
 }
 
 /* TRANSITION */
@@ -315,6 +315,9 @@ top: -170px;
   left: -20px;
   border-radius: 30%;
   
+  }
+  .para{
+    color: black;
   }
 
 /* My SKILLS SECTION */
